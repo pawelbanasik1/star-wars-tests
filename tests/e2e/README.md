@@ -14,4 +14,6 @@ These tests are developed to verify the functionality of the Star Wars Search ap
 
 The main e2e folder contains shared configuration files like package.json or playwright.config.ts.
 
-Additional reports are generated in the folder `playwright-report` after each run.
+#### CI/CD
+E2E tests are executed automatically via GitHub Actions on every pull request.
+The pipeline installs dependencies, starts the application, runs Playwright tests, and publishes an HTML report as an artifact.
