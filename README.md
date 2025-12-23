@@ -8,6 +8,7 @@ reach out to us at any time. We're here to help!
 ### Run the app
 - Run `npm i` to install all the project dependencies.
 - Run `npm start` to start the dev server.
+- Run `npm run test:e2e` to run [`E2E Tests`](./tests/e2e/README.md).
 
 # The Assessment
 Feel free to showcase your impressive skills by thoroughly testing the app.

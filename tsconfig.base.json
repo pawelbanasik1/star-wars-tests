@@ -10,7 +10,6 @@
 		"experimentalDecorators": true,
 		"target": "ES2022",
 		"typeRoots": ["node_modules/@types"],
-		"types": ["cypress", "node"],
 		"lib": ["es2018", "dom"],
 
 		"noUnusedLocals": true,

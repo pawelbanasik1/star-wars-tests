@@ -2,7 +2,7 @@
   "name": "e2e-tests",
   "private": true,
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test --headed"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
